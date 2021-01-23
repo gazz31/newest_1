@@ -1,0 +1,272 @@
+@media all and  (max-width:1923px)
+{
+
+
+
+
+
+
+html{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+    
+    
+}
+
+
+.main_box
+{
+    display:flex;
+    width: 75vw;
+    height: 26vh;
+    background-color:#000;
+    margin:2rem auto !important;
+    border-radius: 5%;
+
+    color: rgb(95, 62, 41);
+
+}
+
+.begining
+{
+    box-sizing: border-box;
+    position:relative;
+    width:90%;
+    font-size:5rem;
+    text-align: center;
+    
+    margin:2rem auto;
+    padding-top:1rem;
+    font-style:italic;
+    color: #996644;
+    letter-spacing: 2rem;
+    cursor:grab;
+    animation: text_first 8s infinite;
+}
+body
+{
+
+    background:#554433;
+
+
+
+
+}
+
+.container
+{
+    margin:0;
+    padding:0;
+    margin:5rem auto 0 auto;
+    display:flex;
+    width:56vw;
+    height:50vh;
+    border:5rem solid #000;
+    border-radius:5%;
+    border-image-repeat: repeat;
+    background-color: red;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: mymove_one 2s infinite;
+    
+}
+
+.container:hover
+{
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: mymove_one 4s infinite;
+    animation: mymove_two 4s infinite;
+    cursor: pointer;
+    border:5rem solid #cacaca;
+    
+}
+
+
+
+@keyframes mymove_one
+{
+    from {background-color: red;}
+    to {background-color: green;}
+    
+    
+    
+  }
+
+
+  @keyframes mymove_two 
+  {
+    from {background-color: black;}
+    to {background-color: blue;}
+      
+    }
+
+    @keyframes text_first
+    {
+
+        from {background-color:  #fff;}
+        to {background-color: purple;}
+
+
+    }
+
+    @keyframes text 
+  {
+    from {color: black;}
+    to {color: cyan;}
+    from {text-decoration: underline black;}
+    to {text-decoration: underline #fff;}
+    from {background-color:  #fff;}
+    to {background-color: orangered;}
+    }
+
+  
+.main_box .begining:hover
+{
+    cursor: pointer;
+    background: #cacaca;
+    color: rgb(95, 62, 41);
+    animation: text 5s infinite;
+    
+}
+
+.begining:hover
+{
+
+    box-sizing: border-box;
+    position:relative;
+    width:90%;
+    font-size:5rem;
+    text-align: center;
+    
+    margin:2rem auto;
+    padding-top:1rem;
+    font-style:italic;
+    color: #996644;
+    letter-spacing: 2rem;
+    cursor:grab;
+    text-decoration: underline #fff;
+
+    
+
+}
+
+
+}
+
+
+@media all and  (max-width:1180px)
+{
+
+
+    html
+    {
+
+
+        margin:0;
+        box-sizing:border-box;
+        padding:0;
+        
+        
+    }
+    
+    
+    .main_box
+    {
+
+
+        display:flex;
+        width: 72vw;
+        height: 19vh;
+        background-color:#cacaca;
+        margin:2rem auto !important;
+        border-radius: 5%;
+        color: black;
+    
+    }
+    
+    .begining
+    {
+       
+        font-size:.5rem;
+        text-align: center;
+        margin:1rem auto;
+        padding:2rem 0;
+        font-style:italic;
+        color:rgb(95, 62, 41);
+        letter-spacing: 2.5rem;
+        cursor:grab;
+       
+    }
+    body
+    {
+    
+        background:#a58c73;
+    
+    
+    
+    
+    }
+    
+    .container
+    {
+        margin:5rem auto 0 auto;
+        display:flex;
+        width:57vw;
+        height:50vh;
+        border:5rem solid #cacaca;
+    
+    
+    }
+    
+    .container:hover
+    {
+        background-image: url(first.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        border:5rem solid black;
+        
+    
+    }
+    .main_box:hover
+    {
+    
+        cursor: pointer;
+        background: black;
+        color: rgb(95, 62, 41);
+    
+    }
+    
+    .begining:hover
+    {
+        font-size:2.5rem;
+        text-align: center;
+        margin:0 auto;
+        padding:2rem 0;
+        font-style:italic;
+        font-style:underline;
+        letter-spacing: 2.5rem;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
